@@ -1,0 +1,161 @@
+*{
+   
+   /* padding: 0; */
+}
+
+.navbar{
+   display: flex;
+   align-items: center;
+   justify-items: center;
+   justify-content: center;
+   position: sticky;
+   top: 0;
+   cursor: pointer;
+   background-color: #289df6;
+   border: solid ;
+   
+}
+
+.nav-list{
+   width: 50%;
+   /* background-color: rgb(0, 0, 0); */
+   display: flex;
+   align-items: center;
+   
+}
+.nav-list li{
+   list-style: none;
+   padding: 26px 30px;
+
+}
+.nav-list li a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+
+}
+
+.nav-list li a:hover{
+   color:  rgba(206, 22, 22, 0.801);
+}
+.rightNav{
+   /* background-color: blue; */
+   width: 50%;
+   text-align: right;
+}
+
+.logo{
+   width: 20%;
+   /*display: flex;*/
+   justify-content: center;
+   align-items: center;
+}
+
+.logo img{
+   width: 55%;
+   border: 3px solid white;
+  /* border-radius: 50px;*/
+   
+}
+
+body{
+  /* background-image: url("Bg_home.png"); */
+   background-image: url("Bg2.jpg");
+   /* background-image: url("Bg2.jp"); */
+   background-position: center ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 300px;
+   cursor: default;
+
+}
+h1{
+   text-align: center;
+   margin:150 0 0 0px;
+   color: 289df6;
+   font-size: 35px;
+   cursor: default;
+}
+.log{
+   width: 310px;  
+   overflow: hidden;  
+   margin: auto;   
+   padding: 80px;  
+   background: #e0dbc5;  
+   border-radius: 15px ;
+   position: relative; 
+   cursor: default;
+}
+
+label{
+   color: #289df6;
+   font-size: 18px;
+}
+
+#fname{
+   width: 300px;
+   height: 30px;
+   border: none;
+   border-radius: 3px;
+   padding-left: 8px;
+}
+
+#fpass{
+   width: 300px;
+   height: 30px;
+   border: none;
+   border-radius: 3px;
+   padding-left: 8px;
+}
+
+#btn{
+   position: center;
+   width: 300px;
+   height: 65px;
+   border: none;
+   border-radius: 100px;
+   padding-left: 50px;
+   color: white;
+   background-color: #289df6;
+   cursor: pointer;
+}
+
+#hello{
+   position: absolute;
+   width:100px;
+   height:500px;
+   border-radius:25px;
+   color: white;
+   background-color: #ff7621;
+   border-width: 0px;
+ }
+ 
+ h2{
+   text-align: center;
+   margin:150 0 0 0px;
+   color: #ff7621;
+   font-size: 35px;
+}
+
+#nav{
+   /* display: flex;*/
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+   background-color: hsl(23, 73%, 50%);
+   position: absolute;
+   top: 0;
+   left:50%;
+   
+}
+
+.background{
+   background: rgba(0, 0, 0, 0.7) url('https://images.unsplash.com/photo-1486218119243-13883505764c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80');
+   /* background: rgba(0, 0, 0, 0.7) url('Landscape-Color.jpg'); */
+   /* background: rgba(0, 0, 0, 0.7) url('https://images.unsplash.com/photo-1635250164981-8205b58b11b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'); */
+   background-size: cover;
+   background-blend-mode: darken;
+   height: 32%;
+}

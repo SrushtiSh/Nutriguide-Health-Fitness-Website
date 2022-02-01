@@ -1,0 +1,28 @@
+/*body{
+    text-align: center;
+    background-color: rgb(26, 134, 110);;
+}
+#top{
+    background-color: rgb(56, 147, 228);
+    text-align: center;
+}
+
+#bottom{
+    background-color: rgb(197, 91, 91);
+}*/
+
+body{
+background: rgba(0, 0, 0, 0.7) url("backcomm.png");
+    background-size: cover;
+   /* background-blend-mode: darken; */
+    height: 75%;
+    color:aliceblue;
+    text-align :center;
+
+}
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    
+        background: rgba(0, 0, 0, 0.7) url("backcomm.png");
+            background-size: cover;
+           /* background-blend-mode: darken; */
+            height: 75%;
+            color:aliceblue;
+            text-align :center;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+    
+            font-size: 150%;
+        
+        
+}
+
+/*#nav{
+    background-color: rgb(247, 200, 129)
+
+}
+#image{
+    background-color: rgb(24, 236, 173);
+}
+
+#img1{
+    background-color: rgb(168, 247, 137);
+}
+
+#img2{
+    background-color: rgb(223, 173, 247);
+}
+
+.h1{
+    background-color: rgb(132, 235, 212);
+}*/

@@ -1,0 +1,25 @@
+/*body{
+    background-color: rgb(26, 134, 110);
+    text-align: center;
+    color:orange;
+}
+
+#nav{
+    color:orange;
+}*/
+body{
+ background: rgba(0, 0, 0, 0.7) url("backcomm.png"); 
+            background-size: cover;
+           /* background-blend-mode: darken; */
+            height: 75%;
+            color:aliceblue;
+            text-align :center;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            /* background: url("back1.png");  */
+            font-size: 150%;
+}
+        
+
+

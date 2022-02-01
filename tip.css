@@ -1,0 +1,145 @@
+/*body{
+    background-color: rgb(26, 134, 110);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-style:groove;
+    text-align: center;
+    
+    font-size: 150%;
+}*/
+
+/*#order{
+    background-color: rgb(28, 243, 125);
+}
+
+h1{
+    background-color: rgb(96, 162, 221);
+}*/
+
+h1{
+    font-size: 200%;
+
+}
+
+body{
+    background: rgba(0, 0, 0, 0.7) url("backcomm.png");
+        background-size: cover;
+       /* background-blend-mode: darken; */
+        height: 75%;
+        color:aliceblue;
+        /*text-align :center;*/
+       /* text-align: center;*/
+        justify-content: center;
+        align-items: center;
+
+        font-size: 300%;
+    
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+    }
+
+
+    .nav-list{
+        width: 170%;
+        /* background-color: rgb(0, 0, 0); */
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+    
+        
+    }
+    .nav-list li{
+        list-style: none;
+        padding: 26px 30px;
+    }
+    
+    
+    
+     /* .rightNav{ */
+        /* width: 170%; */
+        /* background-color: rgb(0, 0, 0); */
+        /* display: flex; */
+        /* align-items: center; */
+        /* font-size: 25px; */
+       
+    /* }   */
+    
+    .nav-list1{
+        width: 170%;
+        /* background-color: rgb(0, 0, 0); */
+        display: flex;
+        align-items: right;
+        justify-content: right;
+    
+        
+    }
+    .nav-list1 li{
+        list-style: none;
+        padding: 26px 30px;
+    
+    }
+    .nav-list1 li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    
+    }
+    
+    .nav-list1 li a:hover{
+        color:  grey;
+    }
+    
+    .rightNav{
+        /* background-color: blue; */
+        /* width: 40%;
+        text-align: right; */
+        width: 170%;
+        /* background-color: rgb(0, 0, 0); */
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+    
+    }
+    
+    .nav-list li a{
+    text-decoration: none;
+        color: rgb(255, 255, 255);
+    
+    }
+    
+    .nav-list li a:hover{
+        color:  grey;
+    }
+    .rightNav{
+        /* background-color: blue; */
+        width: 40%;
+        text-align: right;
+    }
+    
+    .logo{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo img{
+        width: 75%;
+        border: 3px solid white;
+    
+       /* border-radius: 50px;*/
+        
+    }
+    
+    #order{
+        font-size: 140%;
+    }

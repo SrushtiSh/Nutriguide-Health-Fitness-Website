@@ -1,0 +1,65 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="log_in.css">
+  <title>Nutriguide | Log_in</title>
+</head>
+
+<body>
+  <script>
+    function validateform() {
+      var name = document.getElementById("fname").value;
+      var password = document.getElementById("fpass").value;
+
+      if (name == null || name == "") {
+        alert("Name can't be blank");
+        return false;
+      }
+      else if (password.length < 6) {
+        alert("Password must be at least 6 characters long.");
+        return false;
+      }
+      else {
+        location.href = "user_input.html"
+      }
+    }
+
+  </script>
+
+  <body>
+    <!-- <div id="nav">
+      <a href="Nutriguide_home.html">
+        <input type="button" value="Home"></input></a>
+      <hr>
+    </div> -->
+    <nav class="navbar">
+      <ul class="nav-list">
+          <div class="logo "><img src="NL.jpg"></div>
+          <li><a href="Nutriguide_home.html">Home</a></li>
+          <li><a href="about.html">about</a></li>
+          
+         <!-- <li><a href="#contact">contact us</a></li>-->
+      </ul>
+      <div class="rightNav">
+          
+      </div>
+  </nav>
+    <h1><b>LOG IN PAGE</b></h1>
+    <div class="log">
+      <form action="user_input.html">
+        <label>
+          <b>User ID</b>
+        </label><br>
+        <input type="text" placeholder="Enter Username" name="name" id="fname"><br>
+        <br><br>
+        <label>
+          <b>Password</b>
+        </label><br>
+        <input type="password" placeholder="Enter Password" name="password" id="fpass">
+        <br><br>
+        <input type="button" value="Log In" id="btn" onclick="validateform()">
+      </form>
+    </div>
+  </body>
+
+</html>
